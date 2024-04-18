@@ -1,0 +1,39 @@
+:root{
+    --cinza-escuro2: #101828;
+    --cinza-escuro: #3A404E;
+    --cinza-claro: #667085;
+    --branco: #FFFFFF;
+    --vermelho-escuro: #8E2424;
+    --fonte-principal:'Inter', sans-serif;
+    --cor-hover:#3a404e55;
+    --cor-hover2: #521212;
+}
+
+
+.button__primary{
+    text-decoration: none;
+    padding: 10%;
+    border-radius: 8px;
+}
+.button__primary:hover{
+    text-decoration: none;
+    padding: 10%;
+    border-radius: 8px;
+    background-color: var(--cor-hover);
+    color: var(--branco);
+}
+
+.button__secondary{
+    text-decoration: none;
+    padding: 10%;
+    border-radius: 8px;
+    background-color: #8E2424;
+    color: var(--branco);
+}
+.button__secondary:hover{
+    text-decoration: none;
+    padding: 10%;
+    border-radius: 8px;
+    background-color: var(--cor-hover2);
+    color: var(--branco);
+}
