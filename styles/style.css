@@ -91,3 +91,27 @@ body{
     color: var(--cinza-claro);
 }
 
+.metricas__list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    margin: 0% 10%; 
+    gap: 32px;
+}
+
+.metricas__title{
+    color: var(--vermelho-escuro);
+    font-size: 3.75rem;
+    margin: 12px;
+}
+
+.metricas__subtitle{
+    color: var(--cinza-escuro);
+    font-size: 1.125rem;
+    margin: 8px;
+}
+.metricas__text{
+    color: var(--cinza-claro);
+    font-size: 1rem;
+    margin: 8px;
+}
